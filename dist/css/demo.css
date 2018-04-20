@@ -411,7 +411,7 @@ h1, h2, h3, h4 {
 
 /* demo card view*/
 [data-eid="todo"] .evol-cards-body > .panel,
-[data-eid="contact"] .evol-cards-body > .panel {
+[data-eid="courses"] .evol-cards-body > .panel {
   height: 145px !important; }
 
 [data-eid="winecellar"] .evol-cards-body > div.panel {

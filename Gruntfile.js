@@ -109,14 +109,8 @@ module.exports = function (grunt) {
                     },
                 src: [
                     //"demo/demo.js",
-                    //"models/todo.js",
-                    "models/todo.data.js",
-                    //"models/contacts.js",
-                    "models/contacts.data.js",
-                    //"models/winecellar.js",
-                    "models/winecellar.data.js",
-                    //"models/comics.js",
-                    "models/comics.data.js"
+                    //"models/courses.js",
+                    "models/courses.data.js"
                 ],
                 dest: 'demo/demo-data.js'
             }
