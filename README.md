@@ -14,13 +14,17 @@ Also pip has already been packaged inside Python since latest version, it is bet
 #### Setup dependencies
 Run the following command to install all dependencies:
 ```
-pip install -r requirements.txt
+pip install flask
+pip install flask-httpauth
+pip install flask-cors
+pip install flask-sqlalchemy
+pip install passlib
 ```
 
 #### Start the backend
 Run the following command to start the backend server:
 ```
-python app.py
+python backup.py
 ```
 
 
