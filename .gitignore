@@ -18,3 +18,5 @@ Desktop.ini
 
 # WebStorm stuff
 .idea
+
+db.sqlite
