@@ -68,6 +68,11 @@ Choose Consul for simplicity by leverage Docker official Consul image.
 ```
 docker run -d --name=consul -p 8500:8500 -p 8400:8400 gliderlabs/consul-server -bootstrap -client 0.0.0.0 -ui
 # docker run -d --name=consul -p 8500:8500 -p 8400:8400 consul agent -bootstrap -client 0.0.0.0 -ui
+docker run --rm --name consul -p 8500:8500 -p 8400:8400 consul agent -server -bootstrap -client 0.0.0.0 -ui
+
+
+# run as a client
+docker run --rm --name consul1 --link consul consul agent -bind=0.0.0.0 -retry-join=consul
 ```
 Then consul will provide a simple UI at http://localhost:8500, access it to make sure the installation is successful.
 
